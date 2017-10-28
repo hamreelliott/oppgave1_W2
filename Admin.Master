@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Innsending1Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                 <header>
+                     <a href="NyesteNytt.aspx">Nyeste nytt</a>
+                     <asp:Literal ID="VelkomstLiteral" runat="server"></asp:Literal>
+                     <nav>
+                         <ul>
+                             <li><a href="LoggInnNY.aspx">Logg inn</a></li>
+                             <li><a href="MineArtikler.aspx">Ny/rediger artikkel</a></li>
+                             <li><a href="MineArtikler.aspx">Mine artikler</a></li>
+                             <li><a href="AlleArtikler.aspx">Alle artikler</a></li>
+                             <li><a href="NyesteNytt.aspx">Nettavisen</a></li>
+                         </ul>
+                     </nav>
+                 </header>
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+
+   
